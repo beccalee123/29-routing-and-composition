@@ -1,42 +1,53 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Routing and Composition
 
-### Author: Student/Group Name
+### Author: Becca Lee
+
+## Assignment 1 - Warmups
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://codesandbox.io/s/oo1om0zvjz)
+* [site](https://oo1om0zvjz.codesandbox.io/)
 
 ### Modules
-#### `modulename.js`
 ##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+- `index.js` renders the app
+- `app.js` contains the elements to be rendered, as well as the story and details components
+- `components/header/header.js` contains the header
 
 #### UML
-Link to an image of the UML for your application and response to events
+TODO!
+
+## Assignment 2 - Modularize and Functionalize
+
+### Links and Resources
+* [repo](https://codesandbox.io/s/v8ln2xrqp0)
+* [site](https://v8ln2xrqp0.codesandbox.io/)
+
+### Modules
+##### Exported Values and Methods
+- `index.js` renders the app
+- `app.js` contains the component render order
+- `components/header/header.js` contains the header
+- `components/details/details.js` contains the class-based detail component
+- `components/details/functional-details.js` contains the function-based detail component
+- `components/story/story.js` contains the class-based story component
+- `components/story/story-details.js` contains the story-based detail component
+
+#### UML
+TODO!
+
+## Assignment 3 - Conditionals - In Progress
+
+### Links and Resources
+* [repo](https://codesandbox.io/s/8zn4wvr6m2)
+* [site](https://8zn4wvr6m2.codesandbox.io/)
+
+### Modules
+##### Exported Values and Methods
+
+
+#### UML
+TODO!
